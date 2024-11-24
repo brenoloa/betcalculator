@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auxiliar de Apostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Auxiliar de Apostas</h1>
+
+    <div class="container">
+        <label for="stake">Stake:</label>
+        <input type="number" id="stake" value="0">
+
+        <label for="porcentagemLucro">% Lucro por Stake:</label>
+        <input type="number" id="porcentagemLucro" value="0">
+
+        <label for="odd">Odd:</label>
+        <input type="number" id="odd" step="0.01" value="1.00"> <p id = "aviso"> </p>
+
+        <label for="valorAposta">Valor da Aposta:</label>
+        <input type="number" id="valorAposta" readonly>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
